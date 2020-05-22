@@ -103,7 +103,7 @@ int main(int argc, char* argv[])
     else
     {
       cout << "\nError - too few parameters...";
-      cout << "\nDuplicator usage: duplicator + folder + result file + -p(print option)\n";
+      cout << "\nFilesystem usage: Filesystem + folder + result file + -p(print option)\n";
       return -2;
     }
 
@@ -119,11 +119,11 @@ int main(int argc, char* argv[])
   }
   else
   {
-    cout << "\nEnter folder root name (i.e. c:\\mydir\\): ";
+    cout << "\nEnter folder name to be analized (i.e. c:\\dir_x): ";
     getline(cin, dir);
     dirPath = dir;
 
-    cout << "\nEnter TXT result file name (i.e. c:\\myresulty.txt): ";
+    cout << "\nEnter TXT result file name (i.e. c:\\Filesystem\\result.txt): ";
     getline(cin, fil);
     ResultFilePath = fil;
 
@@ -296,6 +296,7 @@ int main(int argc, char* argv[])
         }
       }
     }
+    cout << "\nEnd of search...\n";
     result_file.close();
     input_file.close();
   }
