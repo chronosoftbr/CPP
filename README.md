@@ -71,7 +71,9 @@ Note: this file will be created by the user from result of -p option.
       
 Example:
 a0c5a7ec8fce5388d75b459e625d89ff76811c891bb41da015d91ad2de8172cf
-ddf3147264288d2bda28aa901558118b09163f305c8a925326a767a7ad994657
+ddf3147264288d2bda28aa901558118b09163f305c8a925326a767a7ad9946
+
+End of search...
 
 ************* Result File *************
 		22/5/2020	7:43
@@ -81,5 +83,8 @@ Found
 
 Found 
 "c:\\duplicator\\MP\\0165.txt"
+
+Thats all.
+Your comments and sugestions will be apreciated.
 
 
