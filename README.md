@@ -1,10 +1,15 @@
 C++17_Filesystem Demo Program for Win10
+
 First version
 
 Usage:
 
--Compile the sorce code. In my case was Microsoft Visual Studio Community 2019.
+-Using Microsoft Visual Studio Community 2019.
+-Create a empty console project.
+-Add the files...
+-Compile...
 -Do not forget: activate option c++17 in language project property.
+
 -Create a directory preferable in C:\ (i.e. C:\Filesystem).
 -Put the C++17_Filesystem.exe in the created directory.
 -Open a Console and change to directory you create.
